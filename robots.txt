@@ -1,0 +1,13 @@
+# robots.txt
+
+User-agent: *
+
+Disallow: /css/
+Disallow: /fancybox/
+Disallow: /js/
+Disallow: /files/
+
+Disallow: *.css
+Disallow: *.js
+
+Sitemap: https://1ctrl-cv.github.io/sitemap.xml
