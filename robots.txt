@@ -9,5 +9,7 @@ Disallow: /files/
 
 Disallow: *.css
 Disallow: *.js
+Disallow: *.xml
 
+Allow: https://1ctrl-cv.github.io/BingSiteAuth.xml
 Sitemap: https://1ctrl-cv.github.io/sitemap.xml
