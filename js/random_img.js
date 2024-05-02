@@ -1,3 +1,4 @@
 var random = Math.round( Math.random() * 4 );
-// console.log("https://1ctrl-cv.github.io/img/background" + [random] + ".jpg");
-document.write("https://1ctrl-cv.github.io/img/background" + [random] + ".jpg");
+var bgimg = ("https://1ctrl-cv.github.io/img/background" + [random] + ".jpg");
+//console.log(bgimg);
+window.location = [bgimg] , "_self";
