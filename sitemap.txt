@@ -1,7 +1,7 @@
+https://1ctrl-cv.github.io/tags/index.html
+https://1ctrl-cv.github.io/categories/index.html
 https://1ctrl-cv.github.io/about/index.html
 https://1ctrl-cv.github.io/link/index.html
-https://1ctrl-cv.github.io/categories/index.html
-https://1ctrl-cv.github.io/tags/index.html
 https://1ctrl-cv.github.io/msgbrd/index.html
 https://1ctrl-cv.github.io/posts/commenttest/
 https://1ctrl-cv.github.io/posts/qrasaicp/
