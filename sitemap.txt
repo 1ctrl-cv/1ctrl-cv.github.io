@@ -1,3 +1,5 @@
+https://1ctrl-cv.github.io/catch-the-cat/index.html
+https://1ctrl-cv.github.io/link/index.html
 https://1ctrl-cv.github.io/posts/16d1835a/
 https://1ctrl-cv.github.io/posts/4f78aa9c/
 https://1ctrl-cv.github.io/posts/221cc767/
@@ -7,7 +9,6 @@ https://1ctrl-cv.github.io/posts/b72dbbb6/
 https://1ctrl-cv.github.io/tags/index.html
 https://1ctrl-cv.github.io/categories/index.html
 https://1ctrl-cv.github.io/about/index.html
-https://1ctrl-cv.github.io/link/index.html
 https://1ctrl-cv.github.io/msgbrd/index.html
 https://1ctrl-cv.github.io/detect/index.html
 https://1ctrl-cv.github.io/
