@@ -1,3 +1,4 @@
+https://1ctrl-cv.github.io/posts/79d344be/
 https://1ctrl-cv.github.io/link/index.html
 https://1ctrl-cv.github.io/posts/90ad54af/
 https://1ctrl-cv.github.io/posts/a6855a0c/
@@ -17,6 +18,7 @@ https://1ctrl-cv.github.io/msgbrd/index.html
 https://1ctrl-cv.github.io/detect/index.html
 https://1ctrl-cv.github.io/
 https://1ctrl-cv.github.io/tags/Minecraft/
+https://1ctrl-cv.github.io/tags/%E7%88%B1%E5%8F%91%E7%94%B5/
 https://1ctrl-cv.github.io/tags/%E4%BA%91%E6%B9%96/
 https://1ctrl-cv.github.io/tags/Nginx-Pixiv/
 https://1ctrl-cv.github.io/tags/VSCode/
