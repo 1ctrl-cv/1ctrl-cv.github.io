@@ -1,10 +1,11 @@
-https://1ctrl-cv.github.io/don-t_crawl/test.html
-https://1ctrl-cv.github.io/link/index.html
 https://1ctrl-cv.github.io/posts/79d344be/
+https://1ctrl-cv.github.io/test/index.html
+https://1ctrl-cv.github.io/posts/e8b7be43/
+https://1ctrl-cv.github.io/posts/e7b74777/
+https://1ctrl-cv.github.io/test/test.html
 https://1ctrl-cv.github.io/posts/90ad54af/
 https://1ctrl-cv.github.io/posts/a6855a0c/
 https://1ctrl-cv.github.io/posts/221cc767/
-https://1ctrl-cv.github.io/posts/e7b74777/
 https://1ctrl-cv.github.io/posts/295c9c63/
 https://1ctrl-cv.github.io/about/index.html
 https://1ctrl-cv.github.io/catch-the-cat/index.html

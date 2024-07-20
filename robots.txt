@@ -6,7 +6,7 @@ Disallow: /css/
 Disallow: /fancybox/
 Disallow: /js/
 Disallow: /files/
-Disallow: /don-t_crawl/
+Disallow: /test/
 
 Disallow: *.css
 Disallow: *.js
