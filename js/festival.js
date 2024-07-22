@@ -1,4 +1,4 @@
-// Copyright (c) B84F2246
+// Copyright (c) XluoFox.DSY, B84F2246
 // Author: XLuoFox.DSY, B84F2246
 // festival.js
 ////////////////////////////////
