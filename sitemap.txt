@@ -1,15 +1,16 @@
+https://1ctrl-cv.github.io/game/chrome-dino/index.html
+https://1ctrl-cv.github.io/game/catch-the-cat/index.html
+https://1ctrl-cv.github.io/posts/221cc767/
+https://1ctrl-cv.github.io/posts/4f5e3a36/
 https://1ctrl-cv.github.io/link/index.html
 https://1ctrl-cv.github.io/about/index.html
-https://1ctrl-cv.github.io/posts/e8b7be43/
 https://1ctrl-cv.github.io/posts/79d344be/
 https://1ctrl-cv.github.io/test/index.html
 https://1ctrl-cv.github.io/posts/e7b74777/
 https://1ctrl-cv.github.io/test/test.html
 https://1ctrl-cv.github.io/posts/90ad54af/
 https://1ctrl-cv.github.io/posts/a6855a0c/
-https://1ctrl-cv.github.io/posts/221cc767/
 https://1ctrl-cv.github.io/posts/295c9c63/
-https://1ctrl-cv.github.io/catch-the-cat/index.html
 https://1ctrl-cv.github.io/posts/16d1835a/
 https://1ctrl-cv.github.io/posts/4f78aa9c/
 https://1ctrl-cv.github.io/posts/94a227db/
@@ -23,5 +24,6 @@ https://1ctrl-cv.github.io/
 https://1ctrl-cv.github.io/tags/Minecraft/
 https://1ctrl-cv.github.io/tags/%E7%88%B1%E5%8F%91%E7%94%B5/
 https://1ctrl-cv.github.io/tags/%E4%BA%91%E6%B9%96/
-https://1ctrl-cv.github.io/tags/Nginx-Pixiv/
+https://1ctrl-cv.github.io/tags/Nginx/
+https://1ctrl-cv.github.io/tags/Pixiv/
 https://1ctrl-cv.github.io/tags/VSCode/
