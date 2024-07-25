@@ -1,7 +1,7 @@
 // Copyright (c) B84F2246
 // Author: B84F2246
 // running_time.js
-////////////////////////////////
+/////////////////////////
 setInterval(() => {
   let create_time = Math.round(
     new Date(Date.UTC(2024, 0o0, 0o5, 0, 0, 0)).getTime() / 1000

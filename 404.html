@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>页面没有找到 | B84F2246</title><meta name="author" content="B84F2246"><meta name="copyright" content="B84F2246"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="ffffff"><meta property="og:type" content="website">
+<!DOCTYPE html><html lang="zh-CN" data-theme="dark"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>页面没有找到 | B84F2246</title><meta name="author" content="B84F2246"><meta name="copyright" content="B84F2246"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#0d0d0d"><meta property="og:type" content="website">
 <meta property="og:title" content="B84F2246">
 <meta property="og:url" content="https://1ctrl-cv.github.io/404.html">
 <meta property="og:site_name" content="B84F2246">
@@ -44,14 +44,14 @@
     toc: true,
     rightside: true,
   },
-  autoDarkmode: false
+  autoDarkmode: true
 }</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
   title: '页面没有找到',
   isPost: false,
   isHome: false,
   isHighlightShrink: false,
   isToc: false,
-  postUpdate: '2024-07-24 14:26:46'
+  postUpdate: '2024-07-25 12:39:50'
 }</script><script>(win=>{
       win.saveToLocal = {
         set: (key, value, ttl) => {
@@ -130,9 +130,28 @@
       }
       const t = saveToLocal.get('theme')
     
-        if (t === 'dark') activateDarkMode()
-        else if (t === 'light') activateLightMode()
-      
+          const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+          const isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+          const isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+          const hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+          if (t === undefined) {
+            if (isLightMode) activateLightMode()
+            else if (isDarkMode) activateDarkMode()
+            else if (isNotSpecified || hasNoSupport) {
+              const now = new Date()
+              const hour = now.getHours()
+              const isNight = hour <= 6 || hour >= 18
+              isNight ? activateDarkMode() : activateLightMode()
+            }
+            window.matchMedia('(prefers-color-scheme: dark)').addListener(e => {
+              if (saveToLocal.get('theme') === undefined) {
+                e.matches ? activateDarkMode() : activateLightMode()
+              }
+            })
+          } else if (t === 'light') activateLightMode()
+          else activateDarkMode()
+        
       const asideStatus = saveToLocal.get('aside-status')
       if (asideStatus !== undefined) {
         if (asideStatus === 'hide') {
@@ -150,7 +169,9 @@
       detectApple()
     })(window)</script><script type="text/javascript" src="/js/fun_devtools.js"></script>
 <script type="text/javascript" src="/js/fun_title.js"></script>
-<script type="text/javascript" src="/js/festival.js"></script><meta name="generator" content="Hexo 7.2.0"><link rel="alternate" href="/atom.xml" title="B84F2246" type="application/atom+xml">
+<script type="text/javascript" src="/js/festival.js"></script>
+<script type="text/javascript" src="/js/mouse.js"></script>
+<style type="text/css" src="/css/mouse.css"></style><meta name="generator" content="Hexo 7.2.0"><link rel="alternate" href="/atom.xml" title="B84F2246" type="application/atom+xml">
 </head><body><script>window.paceOptions = {
   restartOnPushState: false
 }

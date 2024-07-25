@@ -1,7 +1,7 @@
 // Copyright (c) B84F2246
 // Author: B84F2246
 // page_info.js
-////////////////////////////////
+/////////////////////////
 function loadTime() {
   var loadTime =
     window.performance.timing.fetchStart -

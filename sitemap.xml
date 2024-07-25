@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://1ctrl-cv.github.io/link/index.html</loc>
+    
+    <lastmod>2024-07-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://1ctrl-cv.github.io/game/chrome-dino/index.html</loc>
     
     <lastmod>2024-07-22</lastmod>
@@ -30,15 +39,6 @@
   
   <url>
     <loc>https://1ctrl-cv.github.io/posts/4f5e3a36/</loc>
-    
-    <lastmod>2024-07-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://1ctrl-cv.github.io/link/index.html</loc>
     
     <lastmod>2024-07-22</lastmod>
     
@@ -202,7 +202,7 @@
 
   <url>
     <loc>https://1ctrl-cv.github.io/</loc>
-    <lastmod>2024-07-24</lastmod>
+    <lastmod>2024-07-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -210,42 +210,42 @@
   
   <url>
     <loc>https://1ctrl-cv.github.io/tags/Minecraft/</loc>
-    <lastmod>2024-07-24</lastmod>
+    <lastmod>2024-07-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://1ctrl-cv.github.io/tags/%E7%88%B1%E5%8F%91%E7%94%B5/</loc>
-    <lastmod>2024-07-24</lastmod>
+    <lastmod>2024-07-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://1ctrl-cv.github.io/tags/%E4%BA%91%E6%B9%96/</loc>
-    <lastmod>2024-07-24</lastmod>
+    <lastmod>2024-07-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://1ctrl-cv.github.io/tags/Nginx/</loc>
-    <lastmod>2024-07-24</lastmod>
+    <lastmod>2024-07-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://1ctrl-cv.github.io/tags/Pixiv/</loc>
-    <lastmod>2024-07-24</lastmod>
+    <lastmod>2024-07-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://1ctrl-cv.github.io/tags/VSCode/</loc>
-    <lastmod>2024-07-24</lastmod>
+    <lastmod>2024-07-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>

@@ -1,7 +1,7 @@
 // Copyright (c) B84F2246
 // Author: B84F2246
 // fun_title.js
-////////////////////////////////
+/////////////////////////
 var OriginTitle = document.title;
 var titleTime;
 document.addEventListener("visibilitychange", function () {

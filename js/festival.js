@@ -1,7 +1,7 @@
 // Copyright (c) XluoFox.DSY, B84F2246
 // Author: XLuoFox.DSY, B84F2246
 // festival.js
-////////////////////////////////
+//////////////////////////////////////
 function festival() {
   // 定义节日和祝福语
   const list = {
