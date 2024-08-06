@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="zh-CN" data-theme="dark"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>使用 Nginx 反代访问 Pixiv | B84F2246</title><meta name="author" content="B84F2246"><meta name="copyright" content="B84F2246"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#0d0d0d"><meta name="description" content="声明：本文仅为方便绘画交流与学习，恕不提供Pixiv外其他网站指导，本教程针对 Windows，修改自樱花庄的白猫。    前言自从 2017 年末，Pixiv 的网页和 APP 始终无法直接打开，但是检测发现其 IP 本身并没有被封禁，所以只要一点小把戏，并借助平时做网站常用反代理服务器 Nginx 即可以完美绕过 SNI审查，整个代理过程在用户自己的电脑上完成，并不涉及任何第三方服务，因此理">
+<!DOCTYPE html><html lang="zh-CN" data-theme="dark"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>使用 Nginx 反代访问 Pixiv | B84F2246</title><meta name="author" content="B84F2246"><meta name="copyright" content="B84F2246"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#0d0d0d"><meta name="description" content="声明：本文仅为方便绘画交流与学习，恕不提供Pixiv外其他网站指导，本教程针对 Windows，修改自樱花庄的白猫。    前言自从 2017 年末，Pixiv 的网页和 APP 始终无法直接打开，但是检测发现其 IP 本身并没有被封禁，所以只要一点小把戏，并借助平时做网站常用反代理服务器 Nginx 即可以完美绕过 SNI审查，整个代理过程在用户自己的电脑上完成，并不涉及任何第三方服务，因此理">
 <meta property="og:type" content="article">
 <meta property="og:title" content="使用 Nginx 反代访问 Pixiv">
 <meta property="og:url" content="https://1ctrl-cv.github.io/posts/221cc767/index.html">
@@ -177,8 +177,9 @@
 <script type="text/javascript" src="/js/fun_title.js"></script>
 <script type="text/javascript" src="/js/festival.js"></script>
 <script type="text/javascript" src="/js/mouse.js"></script>
-<style type="text/css" src="/css/mouse.css"></style>
-<script type="text/javascript" src="/js/old_browser.js"></script><meta name="generator" content="Hexo 7.2.0"><link rel="alternate" href="/atom.xml" title="B84F2246" type="application/atom+xml">
+<link rel="stylesheet" href="/css/mouse.css">
+<script type="text/javascript" src="/js/old_browser.js"></script>
+<script type="text/javascript" src="/js/noie.js"><meta name="generator" content="Hexo 7.2.0"><link rel="alternate" href="/atom.xml" title="B84F2246" type="application/atom+xml">
 </head><body><script>window.paceOptions = {
   restartOnPushState: false
 }
