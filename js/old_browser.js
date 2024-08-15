@@ -1,7 +1,7 @@
 // Copyright (c) 轻笑Chuckle
 // Author: 轻笑Chuckle
 // old_browser.js
-////////////////////////
+////////////////////////////
 function browserTC() {
     btf.snackbarShow("");
     Snackbar.show({
