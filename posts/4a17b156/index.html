@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="zh-CN" data-theme="dark"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>Hello World | B84F2246</title><meta name="author" content="B84F2246"><meta name="copyright" content="B84F2246"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#0d0d0d"><meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<!DOCTYPE html><html lang="zh-CN" data-theme="dark"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>Hello World | B84F2246</title><meta name="author" content="B84F2246"><meta name="copyright" content="B84F2246"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#295bb5"><meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Hello World">
 <meta property="og:url" content="https://blog.b84f2246.top/posts/4a17b156/index.html">
@@ -123,7 +123,7 @@
       win.activateDarkMode = () => {
         document.documentElement.setAttribute('data-theme', 'dark')
         if (document.querySelector('meta[name="theme-color"]') !== null) {
-          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#295bb5')
         }
       }
       win.activateLightMode = () => {
@@ -233,8 +233,8 @@ document.addEventListener('DOMContentLoaded', panguInit)</script><div class="js-
       appId: 't8XboloEp4mNa2jrwu0TFNlk-MdYXbMMI',
       appKey: 'K0PFIL4evZatXqE6E72FYXr8',
       region: 'us',
-      path: window.location.pathname,
-      placeholder: '在此留言',
+      path: location.pathname,
+      placeholder: '在此输入评论&amp;#10;评论和回复支持M↓&amp;#10;发送可能较慢，请坐和放宽',
       avatar: 'identicon',
       meta: guestInfo,
       visitor: 'true',

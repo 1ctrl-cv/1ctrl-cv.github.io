@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="zh-CN" data-theme="dark"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>( | B84F2246</title><meta name="author" content="B84F2246"><meta name="copyright" content="B84F2246"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#0d0d0d"><meta name="description" content="在 Qrasa 的服务器里截的抽象东西 希望 Qrasa 看不到（  6月23日补充之前写完没敢公开">
+<!DOCTYPE html><html lang="zh-CN" data-theme="dark"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>( | B84F2246</title><meta name="author" content="B84F2246"><meta name="copyright" content="B84F2246"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#295bb5"><meta name="description" content="在 Qrasa 的服务器里截的抽象东西 希望 Qrasa 看不到（  6月23日补充之前写完没敢公开">
 <meta property="og:type" content="article">
 <meta property="og:title" content="(">
 <meta property="og:url" content="https://blog.b84f2246.top/posts/e7b74777/index.html">
@@ -124,7 +124,7 @@
       win.activateDarkMode = () => {
         document.documentElement.setAttribute('data-theme', 'dark')
         if (document.querySelector('meta[name="theme-color"]') !== null) {
-          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#295bb5')
         }
       }
       win.activateLightMode = () => {
@@ -225,8 +225,8 @@ document.addEventListener('DOMContentLoaded', panguInit)</script><div class="js-
       appId: 't8XboloEp4mNa2jrwu0TFNlk-MdYXbMMI',
       appKey: 'K0PFIL4evZatXqE6E72FYXr8',
       region: 'us',
-      path: window.location.pathname,
-      placeholder: '在此留言',
+      path: location.pathname,
+      placeholder: '在此输入评论&amp;#10;评论和回复支持M↓&amp;#10;发送可能较慢，请坐和放宽',
       avatar: 'identicon',
       meta: guestInfo,
       visitor: 'true',
