@@ -6,7 +6,7 @@
   <link href="https://blog.b84f2246.top/atom.xml" rel="self"/>
   
   <link href="https://blog.b84f2246.top/"/>
-  <updated>2024-08-12T12:23:53.402Z</updated>
+  <updated>2024-09-15T13:21:18.151Z</updated>
   <id>https://blog.b84f2246.top/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>[转载] 开发者的胜利？Docker为何突然解封！</title>
+    <link href="https://blog.b84f2246.top/posts/9bbf9eca/"/>
+    <id>https://blog.b84f2246.top/posts/9bbf9eca/</id>
+    <published>2024-09-15T13:07:56.000Z</published>
+    <updated>2024-09-15T13:21:18.151Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>原文链接：<a href="https://www.aybk.cn/post-5084.html">https://www.aybk.cn/post-5084.html</a>，内容不代表作者的观点</p></blockquote><p>最近，Docker的封禁风波引起了互联网圈内的广泛关注。就在大家还在猜测封禁会持续多久时，9月7日晚，Docker Hub突然解封，镜像拉取恢复正常，速度也跟着回来了。<strong>这一变化可以说，黑悟空从鹤仙人炼金丹前抢回来了一只鲸鱼。</strong></p><p>作为一名运营多个平台的开发者，这次封禁给我的工作带来了不小的麻烦。无论是镜像拉取还是项目构建，封禁期间的停滞让人颇为头疼。尽管知道Docker的问题本来确实比较多，但突然封禁，还是让人一时措手不及。</p><h2 id="封禁的背后：政治因素与安全隐患？"><a href="#封禁的背后：政治因素与安全隐患？" class="headerlink" title="封禁的背后：政治因素与安全隐患？"></a>封禁的背后：政治因素与安全隐患？</h2><p>Docker在大陆被封禁的背景并不复杂。早在2020年，Docker官方就曾宣布停止向某些被美国列入“实体名单”的企业提供服务，涉及企业包括华为、商汤、旷视、海康威视等。普通人也是正常很难感知这件事。</p><p>换句话解释，带有政治背景的工具，国内的使用并不简单，往往意味着更多的监管风险，就像有些办公场所禁止使用苹果手机一样。</p><p>除了政治层面，Docker信息泄露安全隐患一直存在。见证过许多企业使用Docker打包和迁移项目。作为容器化技术的核心，Docker的镜像管理极大地方便了开发和部署，但也带来了信息泄露的风险。一些企业早已意识到这一点，开始自建镜像仓库，以降低对外部镜像源的依赖。然而，仍有不少企业缺乏足够的安全意识，依赖公开镜像库，给攻击者留下了可乘之机。通过社工手段渗透开发者账号，甚至通过恶意镜像源获取企业的业务代码和敏感信息。</p><p>此外，开源平台如GitHub和Gitee也存在一定风险，因其无实名制，溯源困难。恶意攻击者可能通过这些平台上传伪装的恶意镜像，一旦开发者下载并运行，内网的安全就有可能遭受攻击。</p><h2 id="解封的原因：技术与现实的博弈"><a href="#解封的原因：技术与现实的博弈" class="headerlink" title="解封的原因：技术与现实的博弈"></a>解封的原因：技术与现实的博弈</h2><p>那么，为什么Docker又突然解封了呢？我认为原因可以从以下几点来看：</p><ul><li><p><strong>互联网信息产业受到重大影响：</strong> 众多政企依赖Docker进行业务运营，封禁期间，不少项目的进度和业务推进都遭遇了严重阻碍。</p></li><li><p><strong>治标不治本，问题层出不穷：</strong> 依赖Docker的企业和个人用户基数庞大，解决Docker封禁带来的影响和成本，远远超过构建自有镜像站点或通过“擦边球”方式翻墙的方案。一刀切的封禁方式，反而可能促使更多不合规的替代方案滋生。</p></li><li><p><strong>弃外建内尚需时日：</strong>Docker的封禁对国内互联网产业，尤其是依赖它的开发者和企业，产生了明显冲击。“一刀切”的封禁无法真正解决问题，类似信创服务器的建设也是循序渐进的过程，并非一蹴而就。</p></li></ul><p>因此，解封的背后不仅仅是技术问题，更是多方利益和压力博弈的结果。当然，可能再次限制。</p><h2 id="结语：安全与便利的平衡"><a href="#结语：安全与便利的平衡" class="headerlink" title="结语：安全与便利的平衡"></a>结语：安全与便利的平衡</h2><p>Docker的解封对开发者来说无疑是个好消息，但它也提醒我们，工具的便利性往往伴随着安全隐患。未来，在继续使用Docker等开发工具时，我们必须增强安全意识，做好前期防护，避免类似的突发事件再次干扰我们的工作和项目进展。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;原文链接：&lt;a href=&quot;https://www.aybk.cn/post-5084.html&quot;&gt;https://www.aybk.cn/post-5084.html&lt;/a&gt;，内容不代表作者的观点&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;最近，</summary>
+      
+    
+    
+    
+    
+    <category term="Docker" scheme="https://blog.b84f2246.top/tags/Docker/"/>
+    
+  </entry>
   
   <entry>
     <title>硬件最给力的一集</title>
