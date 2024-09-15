@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.b84f2246.top/test/index.html</loc>
+    
+    <lastmod>2024-09-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.b84f2246.top/noie/index.html</loc>
     
     <lastmod>2024-09-01</lastmod>
@@ -84,15 +93,6 @@
   
   <url>
     <loc>https://blog.b84f2246.top/posts/79d344be/</loc>
-    
-    <lastmod>2024-07-20</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.b84f2246.top/test/index.html</loc>
     
     <lastmod>2024-07-20</lastmod>
     
@@ -229,7 +229,7 @@
 
   <url>
     <loc>https://blog.b84f2246.top/</loc>
-    <lastmod>2024-09-01</lastmod>
+    <lastmod>2024-09-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -237,42 +237,42 @@
   
   <url>
     <loc>https://blog.b84f2246.top/tags/Minecraft/</loc>
-    <lastmod>2024-09-01</lastmod>
+    <lastmod>2024-09-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.b84f2246.top/tags/%E7%88%B1%E5%8F%91%E7%94%B5/</loc>
-    <lastmod>2024-09-01</lastmod>
+    <lastmod>2024-09-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.b84f2246.top/tags/%E4%BA%91%E6%B9%96/</loc>
-    <lastmod>2024-09-01</lastmod>
+    <lastmod>2024-09-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.b84f2246.top/tags/Nginx/</loc>
-    <lastmod>2024-09-01</lastmod>
+    <lastmod>2024-09-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.b84f2246.top/tags/Pixiv/</loc>
-    <lastmod>2024-09-01</lastmod>
+    <lastmod>2024-09-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.b84f2246.top/tags/VSCode/</loc>
-    <lastmod>2024-09-01</lastmod>
+    <lastmod>2024-09-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
