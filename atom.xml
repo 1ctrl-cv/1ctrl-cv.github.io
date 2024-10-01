@@ -6,7 +6,7 @@
   <link href="https://blog.b84f2246.top/atom.xml" rel="self"/>
   
   <link href="https://blog.b84f2246.top/"/>
-  <updated>2024-09-30T09:28:57.663Z</updated>
+  <updated>2024-09-30T09:29:50.978Z</updated>
   <id>https://blog.b84f2246.top/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://blog.b84f2246.top/posts/396d1c95/"/>
     <id>https://blog.b84f2246.top/posts/396d1c95/</id>
     <published>2024-09-22T16:06:12.000Z</published>
-    <updated>2024-09-30T09:28:57.663Z</updated>
+    <updated>2024-09-30T09:29:50.978Z</updated>
     
     <content type="html"><![CDATA[<h1 id="Docker仓库镜像代理工具"><a href="#Docker仓库镜像代理工具" class="headerlink" title="Docker仓库镜像代理工具"></a>Docker仓库镜像代理工具</h1><p>为防止 DockerHub 镜像源再次被墙，本人搭建一个 DockerHub 镜像站供公开使用。（伪装为 Nginx 默认页面）</p><p>域名：<code>docker.b84f2246.top</code></p><p>搭建镜像站使用的项目：<a href="https://github.com/cmliu/CF-Workers-docker.io">CF-Workers-docker.io</a></p><h1 id="如何使用？"><a href="#如何使用？" class="headerlink" title="如何使用？"></a>如何使用？</h1><h2 id="官方镜像路径前面加域名"><a href="#官方镜像路径前面加域名" class="headerlink" title="官方镜像路径前面加域名"></a>官方镜像路径前面加域名</h2><p>例如：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker pull docker.b84f2246.top/stilleshan/frpc:latest</span><br></pre></td></tr></table></figure><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker pull docker.b84f2246.top/library/nginx:stable-alpine3.19-perl</span><br></pre></td></tr></table></figure><h2 id="在配置文件中设置"><a href="#在配置文件中设置" class="headerlink" title="在配置文件中设置"></a>在配置文件中设置</h2><p>修改文件 <code>/etc/docker/daemon.json</code>（如果不存在则创建）</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">sudo <span class="built_in">mkdir</span> -p /etc/docker</span><br><span class="line">sudo <span class="built_in">tee</span> /etc/docker/daemon.json &lt;&lt;-<span class="string">&#x27;EOF&#x27;</span></span><br><span class="line">&#123;</span><br><span class="line">  <span class="string">&quot;registry-mirrors&quot;</span>: [<span class="string">&quot;https://docker.b84f2246.top&quot;</span>]</span><br><span class="line">&#125;</span><br><span class="line">EOF</span><br><span class="line">sudo systemctl daemon-reload</span><br><span class="line">sudo systemctl restart docker</span><br></pre></td></tr></table></figure>]]></content>
     
