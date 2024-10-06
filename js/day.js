@@ -27,7 +27,18 @@ var nationalMemorialDayArray = [
     '12-13',
 ];
 
-if (nationalMemorialDayArray.includes(nowDate) && location.pathname == '/') {
+function hasHtmlGrayFilter() {
+    const elements = document.querySelectorAll('*');
+    for (let i = 0; i < elements.length; i++) {
+        if  (elements[i].hasAttribute('htmlgray-filter')) {
+            return false;
+        }
+    }
+    return true;
+}
+
+if (nationalMemorialDayArray.includes(nowDate) && hasGrayFilter()) {
     var root = document.documentElement;
     root.className += ' htmlgray-filter';
+    console.log("节日系统-扩展模块 > \n国行公祭，法立典章。铸兹宝鼎，祀我国殇。\n永矢弗谖，祈愿和平。中华圆梦，民族复兴。")
 }

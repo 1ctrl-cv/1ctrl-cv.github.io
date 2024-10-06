@@ -5,7 +5,7 @@
  */
 
 class LocalSearch {
-  constructor ({
+  constructor({
     path = '',
     unescape = false,
     top_n_per_article = 1
@@ -17,7 +17,7 @@ class LocalSearch {
     this.datas = null
   }
 
-  getIndexByWord (words, text, caseSensitive = false) {
+  getIndexByWord(words, text, caseSensitive = false) {
     const index = []
     const included = new Set()
 
@@ -54,7 +54,7 @@ class LocalSearch {
   }
 
   // Merge hits into slices
-  mergeIntoSlice (start, end, index) {
+  mergeIntoSlice(start, end, index) {
     let item = index[0]
     let { position, word } = item
     const hits = []
@@ -89,7 +89,7 @@ class LocalSearch {
   }
 
   // Highlight title and content
-  highlightKeyword (val, slice) {
+  highlightKeyword(val, slice) {
     let result = ''
     let index = slice.start
     for (const { position, length } of slice.hits) {
@@ -101,7 +101,7 @@ class LocalSearch {
     return result
   }
 
-  getResultItems (keywords) {
+  getResultItems(keywords) {
     const resultItems = []
     this.datas.forEach(({ title, content, url }) => {
       // The number of different keywords included in the article.
@@ -170,7 +170,7 @@ class LocalSearch {
     return resultItems
   }
 
-  fetchData () {
+  fetchData() {
     const isXml = !this.path.endsWith('json')
     fetch(this.path)
       .then(response => response.text())
@@ -179,10 +179,10 @@ class LocalSearch {
         this.isfetched = true
         this.datas = isXml
           ? [...new DOMParser().parseFromString(res, 'text/xml').querySelectorAll('entry')].map(element => ({
-              title: element.querySelector('title').textContent,
-              content: element.querySelector('content').textContent,
-              url: element.querySelector('url').textContent
-            }))
+            title: element.querySelector('title').textContent,
+            content: element.querySelector('content').textContent,
+            url: element.querySelector('url').textContent
+          }))
           : JSON.parse(res)
         // Only match articles with non-empty titles
         this.datas = this.datas.filter(data => data.title).map(data => {
@@ -196,8 +196,9 @@ class LocalSearch {
       })
   }
 
+
   // Highlight by wrapping node in mark elements with the given class name
-  highlightText (node, slice, className) {
+  highlightText(node, slice, className) {
     const val = node.nodeValue
     let index = slice.start
     const children = []
@@ -216,7 +217,7 @@ class LocalSearch {
   }
 
   // Highlight the search words provided in the url in the text
-  highlightSearchWords (body) {
+  highlightSearchWords(body) {
     const params = new URL(location.href).searchParams.get('highlight')
     const keywords = params ? params.split(' ') : []
     if (!keywords.length || !body) return
@@ -235,7 +236,7 @@ class LocalSearch {
 }
 
 window.addEventListener('load', () => {
-// Search
+  // Search
   const { path, top_n_per_article, unescape, languages } = GLOBAL_CONFIG.localSearch
   const localSearch = new LocalSearch({
     path,
@@ -253,11 +254,17 @@ window.addEventListener('load', () => {
     let searchText = input.value.trim().toLowerCase()
     isXml && (searchText = searchText.replace(/</g, '&lt;').replace(/>/g, '&gt;'))
     if (searchText !== '') $loadingStatus.innerHTML = '<i class="fas fa-spinner fa-pulse"></i>'
+    if (searchText === 'test') {
+      setTimeout("const newUrl = new URL('/test', location.origin);window.location.href = newUrl.href", 10000);
+    }
+    if (searchText === '自杀') {
+      setTimeout("alert('你不孤单，我们都在')", 2000);
+      setTimeout("const newUrl = new URL('/suicide', location.origin);window.location.href = newUrl.href", 2000);
+    }
     const keywords = searchText.split(/[-\s]+/)
     const container = document.getElementById('local-search-results')
     let resultItems = []
     if (searchText.length > 0) {
-    // Perform local searching
       resultItems = localSearch.getResultItems(keywords)
     }
     if (keywords.length === 1 && keywords[0] === '') {
@@ -313,7 +320,7 @@ window.addEventListener('load', () => {
       loadFlag = true
     }
     // shortcut: ESC
-    document.addEventListener('keydown', function f (event) {
+    document.addEventListener('keydown', function f(event) {
       if (event.code === 'Escape') {
         closeSearch()
         document.removeEventListener('keydown', f)
