@@ -1,6 +1,6 @@
 // Copyright (c) B84F2246
 // Author: B84F2246
-// .js
+// festival-ex.js
 /////////////////////////
 document.write([
     '<style type="text/css">',
