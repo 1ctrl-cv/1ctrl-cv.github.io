@@ -4,7 +4,16 @@
   <url>
     <loc>https://blog.b84f2246.top/link/index.html</loc>
     
-    <lastmod>2024-11-17</lastmod>
+    <lastmod>2024-11-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.b84f2246.top/about/index.html</loc>
+    
+    <lastmod>2024-11-23</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -41,15 +50,6 @@
     <loc>https://blog.b84f2246.top/posts/b50bc5ea/</loc>
     
     <lastmod>2024-08-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.b84f2246.top/about/index.html</loc>
-    
-    <lastmod>2024-08-07</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -220,7 +220,7 @@
 
   <url>
     <loc>https://blog.b84f2246.top/</loc>
-    <lastmod>2024-11-17</lastmod>
+    <lastmod>2024-11-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -228,49 +228,49 @@
   
   <url>
     <loc>https://blog.b84f2246.top/tags/Minecraft/</loc>
-    <lastmod>2024-11-17</lastmod>
+    <lastmod>2024-11-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.b84f2246.top/tags/Docker/</loc>
-    <lastmod>2024-11-17</lastmod>
+    <lastmod>2024-11-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.b84f2246.top/tags/%E4%BA%91%E6%B9%96/</loc>
-    <lastmod>2024-11-17</lastmod>
+    <lastmod>2024-11-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.b84f2246.top/tags/Nginx/</loc>
-    <lastmod>2024-11-17</lastmod>
+    <lastmod>2024-11-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.b84f2246.top/tags/Pixiv/</loc>
-    <lastmod>2024-11-17</lastmod>
+    <lastmod>2024-11-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.b84f2246.top/tags/VSCode/</loc>
-    <lastmod>2024-11-17</lastmod>
+    <lastmod>2024-11-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.b84f2246.top/tags/%E7%88%B1%E5%8F%91%E7%94%B5/</loc>
-    <lastmod>2024-11-17</lastmod>
+    <lastmod>2024-11-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
