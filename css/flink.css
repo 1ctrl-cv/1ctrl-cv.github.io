@@ -1,6 +1,3 @@
-#article-container .flink .flink-list {
-    text-align: left!important;
-}
-.flink-item-name, .flink-item-desc {
-    color: white!important;
-}
+/* build time:Sat Jan 11 2025 18:23:39 GMT+0800 (中国标准时间)*/
+#article-container .flink .flink-list{text-align:left!important}.flink-item-desc,.flink-item-name{color:#fff!important}
+/* rebuild by neat */

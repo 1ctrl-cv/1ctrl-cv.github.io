@@ -1,17 +1,3 @@
-.heimu, .heimu a, a .heimu, .heimu a.new {
-    background-color: #252525;
-    color: #252525;
-    text-shadow: none;
-}
-.heimu:hover, .heimu:active,
-.heimu:hover .heimu, .heimu:active .heimu {
-    color: white !important;
-}
-.heimu:hover a, a:hover .heimu,
-.heimu:active a, a:active .heimu {
-    color: lightblue !important;
-}
-.heimu:hover .new, .heimu .new:hover, .new:hover .heimu,
-.heimu:active .new, .heimu .new:active, .new:active .heimu {
-    color: #BA0000 !important;
-}
+/* build time:Sat Jan 11 2025 18:23:39 GMT+0800 (中国标准时间)*/
+.heimu,.heimu a,.heimu a.new,a .heimu{background-color:#252525;color:#252525;text-shadow:none}.heimu:active,.heimu:active .heimu,.heimu:hover,.heimu:hover .heimu{color:#fff!important}.heimu:active a,.heimu:hover a,a:active .heimu,a:hover .heimu{color:#add8e6!important}.heimu .new:active,.heimu .new:hover,.heimu:active .new,.heimu:hover .new,.new:active .heimu,.new:hover .heimu{color:#ba0000!important}
+/* rebuild by neat */
