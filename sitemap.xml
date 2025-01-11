@@ -2,9 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.b84f2246.top/posts/487e445d/</loc>
+    
+    <lastmod>2025-01-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.b84f2246.top/posts/367d7508/</loc>
     
-    <lastmod>2025-01-10</lastmod>
+    <lastmod>2025-01-11</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -279,6 +288,13 @@
   
   <url>
     <loc>https://blog.b84f2246.top/tags/Alist/</loc>
+    <lastmod>2025-01-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.b84f2246.top/tags/Hexo/</loc>
     <lastmod>2025-01-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
