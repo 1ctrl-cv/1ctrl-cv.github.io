@@ -28,9 +28,9 @@ https://blog.b84f2246.top/
 https://blog.b84f2246.top/tags/Minecraft/
 https://blog.b84f2246.top/tags/Docker/
 https://blog.b84f2246.top/tags/%E4%BA%91%E6%B9%96/
+https://blog.b84f2246.top/tags/Nginx/
+https://blog.b84f2246.top/tags/Pixiv/
 https://blog.b84f2246.top/tags/VSCode/
 https://blog.b84f2246.top/tags/Alist/
 https://blog.b84f2246.top/tags/Hexo/
 https://blog.b84f2246.top/tags/%E7%88%B1%E5%8F%91%E7%94%B5/
-https://blog.b84f2246.top/tags/Nginx/
-https://blog.b84f2246.top/tags/Pixiv/
