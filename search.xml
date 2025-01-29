@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>成功领到了群友的密文红包</title>
+      <link href="/posts/5693968/"/>
+      <url>/posts/5693968/</url>
+      
+        <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>起因是群友给我发了这个</p><p><img src="/img/posts/message1.png" alt="message1"></p><p>并发出了<del>真挚的邀请</del></p><p><img src="/img/posts/message2.png" alt="message2"></p><p>于是毫不犹豫的答应了</p><h3 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h3><p>首先，他告诉我一共有四步，于是我们<del>直接索要思路</del>得到刚才的十六进制为一段字符串，打开编辑器并抄写，得到密文<code>https://oss.paimon.xyz/%E7%BA%A2%E5%8C%85.zip</code></p><p>看来这是一个压缩包，我们下载它，得到了两个文件</p><p><img src="/img/posts/files.png" alt="files"></p><p>那么显然这就是第二个密文和秘钥了，打开在线工具直接解密，得到了一段字符串：<code>6Jyc6YWx6IOh6JCd5Y2c5rS+6JKZ56Wd5L2g5paw5bm05b+r5LmQ</code>。看起来像是base64编码，我们直接解码</p><p><img src="/img/posts/baseencode1.jpg" alt="baseencode1"></p><p>?怎么是乱码啊，我问问怎么个事</p><p>原来是UTF-8编码，我们再试一次</p><p><img src="/img/posts/baseencode2.jpg" alt="baseencode2"></p><p>成功！火速打开支付宝输入口令，结束。</p><p><img src="/img/posts/success.jpg" alt="success"></p><h2 id="后日谈"><a href="#后日谈" class="headerlink" title="后日谈"></a>后日谈</h2><p><span title="你知道的太多了" type="heimu">疑似今天领的最大的红包</span></p><p><img src="/img/posts/message3.png" alt="message3"></p><p>没趁着新年时上传文章真是可惜了</p><p><img src="/img/posts/message4.png" alt="message4"></p><p><img src="/img/posts/message5.png" alt="message5"></p><h2 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h2><p><strong>也祝各位新年快乐，万事如意！</strong></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>萌娘百科黑幕效果复刻</title>
       <link href="/posts/487e445d/"/>
       <url>/posts/487e445d/</url>
