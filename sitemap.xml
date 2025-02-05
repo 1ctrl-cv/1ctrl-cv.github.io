@@ -275,6 +275,20 @@
   </url>
   
   <url>
+    <loc>https://blog.b84f2246.top/tags/Nginx/</loc>
+    <lastmod>2025-02-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.b84f2246.top/tags/Pixiv/</loc>
+    <lastmod>2025-02-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.b84f2246.top/tags/VSCode/</loc>
     <lastmod>2025-02-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -297,20 +311,6 @@
   
   <url>
     <loc>https://blog.b84f2246.top/tags/%E7%88%B1%E5%8F%91%E7%94%B5/</loc>
-    <lastmod>2025-02-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.b84f2246.top/tags/Nginx/</loc>
-    <lastmod>2025-02-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.b84f2246.top/tags/Pixiv/</loc>
     <lastmod>2025-02-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
