@@ -258,7 +258,6 @@ window.addEventListener('load', () => {
       setTimeout("const newUrl = new URL('/test', location.origin);window.location.href = newUrl.href", 10000);
     }
     if (searchText === '自杀') {
-      setTimeout("alert('你不孤单，我们都在')", 2000);
       setTimeout("const newUrl = new URL('/suicide', location.origin);window.location.href = newUrl.href", 2000);
     }
     const keywords = searchText.split(/[-\s]+/)
