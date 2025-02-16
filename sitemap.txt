@@ -24,7 +24,6 @@ https://blog.b84f2246.top/posts/4a17b156/
 https://blog.b84f2246.top/posts/b72dbbb6/
 https://blog.b84f2246.top/tags/index.html
 https://blog.b84f2246.top/categories/index.html
-https://blog.b84f2246.top/api/random_img.html
 https://blog.b84f2246.top/
 https://blog.b84f2246.top/tags/Minecraft/
 https://blog.b84f2246.top/tags/Docker/
