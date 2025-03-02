@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.b84f2246.top/posts/d5a1372a/</loc>
+    
+    <lastmod>2025-03-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.b84f2246.top/friends/index.html</loc>
     
     <lastmod>2025-03-02</lastmod>
@@ -302,6 +311,20 @@
   
   <url>
     <loc>https://blog.b84f2246.top/tags/%E7%88%B1%E5%8F%91%E7%94%B5/</loc>
+    <lastmod>2025-03-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.b84f2246.top/tags/%E9%A2%84%E5%91%8A/</loc>
+    <lastmod>2025-03-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.b84f2246.top/tags/%E5%BF%83%E7%90%86/</loc>
     <lastmod>2025-03-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
