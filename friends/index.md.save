@@ -1,0 +1,196 @@
+---
+title: 友链
+date: 2024-01-07 19:06:25
+type: "link"
+---
+{% flink %}
+- class_name: 搭建本站用到的工具
+  link_list:
+    - name: Node.js
+      link: https://nodejs.org/zh-cn/
+      avatar: /img/friends/nodejs.jpg
+      descr: Node.js&copy; 是一个免费、开源、跨平台的 JavaScript 运行时环境，它让开发人员能够创建服务器、Web 应用、命令行工具和脚本。
+      theme_color: '#84ba64'
+    - name: Hexo
+      link: https://hexo.io/zh-cn/
+      avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg
+      descr: 快速、简单且强大的网站框架
+      theme_color: '#1483cd'
+    - name: Butterfly Theme
+      link: https://butterfly.js.org/
+      avatar: https://butterfly.js.org/img/avatar.png
+      descr: A Simple and Card UI Design theme for Hexo
+      theme_color: '#0d0d0d'
+
+- class_name: 友链
+  class_desc: 最有友情的一集
+  link_list:
+    - name: Qrasa
+      link: https://blog.qrasa.cn/
+      avatar: https://blog.qrasa.cn/wp-content/uploads/2024/10/78D4DE862CDEFD6398B594AC92B0000F.jpeg
+      descr: Made with ❤ by Qrasa
+      theme_color: '#fff8e1'
+    - name: 蜜酱胡萝卜派蒙
+      link: https://paimon.com.cn/
+      avatar: /img/friends/paimon.png
+      descr: 非常好网站，爱来自派蒙。
+    - name: Runoneall
+      link: https://runoneall.nyc.mn/
+      avatar: https://filecdn.runoneall.nyc.mn/BlogResource/avatar.webp
+      descr: Runoneall の 小破站
+    - name: Ariasakaの小窝
+      link: https://blog.yaria.top/
+      avatar: https://weavatar.com/avatar/795ce413eb6c7485954b78283ffa3e00
+      descr: 人有悲欢离合 月有阴晴圆缺
+      siteshot: https://vercel.yaria.top/img/siteshot.png
+      theme_color: '#ed709b'
+    - name: yyyyt博客/文档站
+      link: https://docs.yyyyt.top/
+      avatar: https://img.yyyyt.top/avatar/avatar
+      descr: yyyyt博客/文档站
+    - name: Akilarの糖果屋
+      link: https://akilar.top/
+      avatar: https://npm.elemecdn.com/akilar-friends@latest/avatar/akilar.top.jpg
+      descr: 欢迎光临糖果屋
+      siteshot: https://npm.elemecdn.com/akilar-friends@latest/siteshot/akilar.top.jpg
+    - name: butlanys
+      link: https://blog.butlanys.de/
+      avatar: https://file.butlanys.de/img/avatar.jpg
+      descr: 一个乐于分享的博客
+    - name: 安知鱼
+      link: https://blog.anheyu.com/
+      avatar: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.4/img/avatar.jpg
+      descr: 生活明朗，万物可爱
+      siteshot: https://npm.elemecdn.com/anzhiyu-theme-static@1.1.6/img/blog.anheyu.com.jpg
+    - name: 轻笑Chuckle
+      link: https://www.qcqx.cn/
+      avatar: https://www.qcqx.cn/head.webp
+      descr: 漫天倾尘,风中轻笑
+      siteshot: https://www.qcqx.cn/qcqx.webp
+    - name: 唐志远
+      link: https://fe32.top/
+      avatar: https://bu.dusays.com/2022/05/02/626f92e193879.jpg
+      descr: 古今之成大事者，不惟有超世之才，亦必有坚忍不拔之志
+      screenshot: https://bu.dusays.com/2023/07/16/64b400bf8e546.jpg
+    - name: XLuoFox.DSY
+      link: https://xluofox.us.kg/
+      avatar: /img/friends/xiaoluo.ico
+      descr: 一个Aero样式的拟物化个人博客，站长是傻逼 (站长让我这么写的)
+    - name: GamerNoTitle
+      link: https://bili33.top/
+      avatar: https://assets.bili33.top/img/AboutMe/logo-mini.png
+      descr: TECH OTAKUS SAVE THE WORLD
+      theme_color: '#e5b99c'
+    - name: 纳西妲的个人网站
+      link: https://nahida.im/
+      avatar: https://nahida.im/profile.png
+      descr: 你好，我叫纳西妲！👋
+      theme_color: '#7eda6e'
+    - name: 妄尘驿
+      link: https://wcysite.com/
+      avatar: /img/friends/lengwang.png
+      descr: 生活在妄想中的喵~
+    - name: snokjingの避风小站
+      link: http://211.159.158.38/
+#      avatar: http://211.159.158.38/upload/b_7f9a3a4161cab50373c7e20f6a824a91.jpg
+      avatar: /img/friends/snokjing.jpg
+      descr: 这只废材没有任何描述喵
+    - name: Kilometre-千米
+      link: http://km.qrasa.cn/
+      avatar: /img/friends/km.png
+#      avatar: http://km.qrasa.cn/wp-content/uploads/2024/10/KMico1.png
+      descr: 欢迎您的到来!我是千米 Kilometre(社交名五郎)
+    - name: r1a dev
+      link: https://blog.oneall.eu.org/
+      avatar: https://dev.oneall.eu.org/favicon.webp
+      descr: r1a的开发记录/博客
+    - name: Anran
+      link: https://www.anran.xyz/
+      avatar: /img/friends/anran.jpg
+      descr: Welcome!
+    - name: Creeper005の小站
+      link: https://creeper005bili.github.io/
+      avatar: /img/friends/Creeper005.jpg
+      descr: 坐牢日常
+    - name: Elykia
+      link: https://blog.elykia.cn/
+      avatar: https://bu.dusays.com/2024/10/25/671b2438203a6.gif
+      descr: 致以无暇之人
+      siteshot: https://bu.dusays.com/2024/10/25/671b50dc2dd2b.png
+      theme_color: '#fbabeb'
+    - name: Minearm-RPM
+      link: https://minearm.org/
+      avatar: https://www.minearm.org/avatar.avif
+      descr: 'loclhost@root #~' 
+      theme_color: blue
+    - name: 114514个博客
+      link: https://sanlian.us.kg/wordpress/
+      avatar: /img/friends/sanlian.ico
+      descr: Are you OK?
+    - name: Hehe的小站
+      link: https://hehenya.us.kg/
+      avatar: https://s3.bmp.ovh/imgs/2025/01/17/69249e4ac9cb8403.jpg
+      descr: 收录各种破解工具
+    - name: 机不可失的小站
+      link: https://jibukeshi.dpdns.org/
+      avatar: https://jibukeshi.dpdns.org/upload/avatar.jpg
+      descr: 机不可失的个人网站/博客
+      theme_color: '#1897ff'
+    - name: DDverse
+      link: https://blog.atri.pw/
+      avatar: https://blog.atri.pw/img/avatar_hu_4641e1f24e8888ed.png
+      descr: Live a life of serenity, not a life of regrets.
+    - name: 夜轻Blog
+      link: https://blog.yeqing.net/
+      avatar: https://blog.yeqing.net/upload/ea055268c8792945de3b9c8d00e1cd08.jpeg
+      descr: 一个人
+    - name: 星月Minecraft版本库
+      link: https://spectrollay.github.io/minecraft_repository/
+      avatar: https://spectrollay.github.io/minecraft_repository_test/images/logo/Starmoon_logo.png
+      descr: 一个开放共享的全版本Minecraft下载站.
+    - name: 请才能的博客
+      link: https://blog.yuki.us.kg/
+      avatar: https://blog.yuki.us.kg/upload/110834364_p0.jpg
+      descr: 一个笨蛋的博客
+    - name: DerolexTV Official Blog
+      link: https://edited.yqtuz.com/
+      avatar: 
+
+- class_name: 网站
+  class_desc: 值得推荐的网站
+  link_list:
+    - name: BiliBili
+      link: https://www.bilibili.com/
+      avatar: /img/friends/bilibili.svg
+      descr: 哔哩哔哩 (゜-゜)つロ 干杯~
+      theme_color: '#00a1d6' # 蓝
+#      theme_color: '#ff80aa' # 粉
+    - name: 云湖社交 APP
+      link: https://www.yhchat.com/
+      avatar: https://www.yhchat.com/favicon.ico
+      descr: 灵活高效的社交工具软件
+      theme_color: '#9074f4'
+{% endflink %}
+
+我的站点信息
+
+```yaml
+- name: B84F2246 的小站
+  link: https://blog.b84f2246.top/
+  avatar: https://assets.b84f2246.top/img/avatar.png # (也可以使用图床https://tc.d3tt.com/images/FvAhkiZ5Y1U2kyCbkl75nq-a0Ef0.png)
+  descr: TECH OTAKUS SAVE THE WORLD!
+  theme_color: '#295bb5'
+  screenshot: https://blog.b84f2246.top/img/screenshot.jpg # (还有screenshot2.jpg、screenshot3.jpg和screenshot4.jpg，大小不同，任选其一)
+```
+
+欢迎在评论中交换友链
+
+格式：
+
+```yaml
+- name: 网站名称
+  link: 网站链接
+  avatar: 头像链接
+  descr: 网站描述
+  theme_color: (可选)主题颜色
+```
