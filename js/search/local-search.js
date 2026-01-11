@@ -236,6 +236,8 @@ class LocalSearch {
 }
 
 window.addEventListener('load', () => {
+  // 保存跳转定时器
+  let specialKeywordTimeout = null;
   // Search
   const { path, top_n_per_article, unescape, languages } = GLOBAL_CONFIG.localSearch
   const localSearch = new LocalSearch({
@@ -254,11 +256,23 @@ window.addEventListener('load', () => {
     let searchText = input.value.trim().toLowerCase()
     isXml && (searchText = searchText.replace(/</g, '&lt;').replace(/>/g, '&gt;'))
     if (searchText !== '') $loadingStatus.innerHTML = '<i class="fas fa-spinner fa-pulse"></i>'
+    // 防抖
+    if (specialKeywordTimeout) {
+      clearTimeout(specialKeywordTimeout);
+      specialKeywordTimeout = null;
+    }
+    // 特殊关键词处理
     if (searchText === 'test') {
-      setTimeout("const newUrl = new URL('/test', location.origin);window.location.href = newUrl.href", 10000);
+      specialKeywordTimeout = setTimeout(() => {
+        const newUrl = new URL('/test', location.origin);
+        window.location.href = newUrl.href;
+      }, 10000);
     }
     if (searchText === '自杀') {
-      setTimeout("const newUrl = new URL('/suicide', location.origin);window.location.href = newUrl.href", 2000);
+      specialKeywordTimeout = setTimeout(() => {
+        const newUrl = new URL('/suicide', location.origin);
+        window.location.href = newUrl.href;
+      }, 2000);
     }
     const keywords = searchText.split(/[-\s]+/)
     const container = document.getElementById('local-search-results')
