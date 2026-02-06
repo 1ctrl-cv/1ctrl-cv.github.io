@@ -20,7 +20,7 @@ function getCDNinfo() {
                 if (areas[i].indexOf(areaCode) !== -1) {
                     const cdnElement = document.getElementById("cdn");
                     if (cdnElement) {
-                        cdnElement.innerHTML = areas[i];
+                        cdnElement.innerHTML = "当前CDN节点: " + areas[i];
                     }
                     break;
                 }

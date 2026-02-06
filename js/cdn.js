@@ -7,7 +7,7 @@ getCDNinfo = function() {
 			let area = data.split("colo=")[1].split("\n")[0];
 			for (var i = 0; i < areas.length; i++) {
 				if (areas[i].indexOf(area) != -1) {
-					document.getElementById("cdn").innerHTML = areas[i];
+					document.getElementById("cdn").innerHTML = "当前CDN节点: " + areas[i];
 					break;
 				}
 			}
