@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>A卡在Arch下安装FAH7.6.21</title>
+      <link href="/posts/e3e4246d/"/>
+      <url>/posts/e3e4246d/</url>
+      
+        <content type="html"><![CDATA[<h1>前言</h1><p>用 AUR 助手安装会导致某些问题，所以我写了这篇文章</p><p>环境：</p><ul><li>CPU：AMD A8-7410</li><li>GPU：AMD Radeon R5 M330</li><li>OS：CatOS rolling x64</li></ul><p>非常老的设备了，毕竟只是演示用的</p><p>驱动参考这篇 <a href="https://arch.icekylin.online/guide/rookie/graphic-driver">archlinux 显卡驱动</a>，写的很详细</p><h1>安装</h1><p>在AUR的存档中下载 <a href="https://aur.archlinux.org/cgit/aur.git/commit/?h=foldingathome&amp;id=53a37afd6e44bf3c217211f716a88e48ac130efd">旧版</a> 的仓库并解压，注意直接 <code>makepkg -si</code> 会报错，因为 FAH 官网删除了旧版所需的文件</p><p>在互联网档案馆中可以找到所需的 <a href="http://web.archive.org/web/20211129035808/https://download.foldingathome.org/releases/public/release/fahclient/debian-stable-64bit/v7.6/fahclient_7.6.21-64bit-release.tar.bz2">文件</a>，直接放在刚才解压的仓库文件夹里，然后重新构建软件包</p><p>记得装完以后执行 <code>systemctl daemon-reload</code></p><h1>配置</h1><p>运行 <code>FAHClient --configure</code>，以 root 身份生成 <code>/etc/foldingathome/config.xml</code> 配置文件。你也可以手动编辑它。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> /etc/foldingathome</span><br><span class="line">FAHClient --configure</span><br></pre></td></tr></table></figure><p>然后启用并运行 <code>foldingathome.service</code> 单元。</p><h1>运行</h1><h2 id="图形化运行">图形化运行</h2><p>AUR助手可以安装FAHControl，或者打开浏览器访问 <a href="http://localhost:7396/">http://localhost:7396/</a></p><h2 id="终端中运行">终端中运行</h2><p>foldingathome 的行为可以通过编辑 <code>/opt/fah/config.xml</code> 来定制。可以指定的一些选项如下：</p><ul><li>密码，用于识别你的身份。虽然没什么用</li></ul><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">passkey</span> <span class="attr">v</span>=<span class="string">&#x27;passkey&#x27;</span>/&gt;</span></span><br></pre></td></tr></table></figure><ul><li>CPU 或 GPU 并行</li></ul><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">slot</span> <span class="attr">id</span>=<span class="string">&#x27;0&#x27;</span> <span class="attr">type</span>=<span class="string">&#x27;CPU&#x27;</span>/&gt;</span></span><br></pre></td></tr></table></figure><h1>提示GPU被禁用（来自<a href="https://wiki.archlinux.org/title/Folding@home">ArchWiki</a>，机器翻译）</h1><p>Navi 10 based GPUs and later suffer from ROCm conflicting with Folding@home’s shipped libstdc++ library. In order to fix this, try to apply this temporary workaround:<br>基于 Navi 10 及更新版本的显卡存在 ROCm 与 Folding@home 预装 libstdc++ 库冲突的问题。为解决此问题，请尝试应用此临时修复方案：</p><ul><li>start Folding@home, and wait for the GPU to fail;</li><li>启动 Folding@home，并等待显卡出现故障；</li></ul><p>the GPU slot may need to be re-enabled for this.<br>这个 GPU 插槽可能需要重新启用。</p><ul><li>replace Folding@home’s current core’s libstdc++.so.6 by your system’s own library, e.g., <code>/usr/lib/libstdc++.so.6</code>.</li><li>将 Folding@home 当前核心的 libstdc++.so.6 替换为系统自带的库，例如 <code>/usr/lib/libstdc++.so.6</code>。</li></ul><p>Folding@home’s core can be found at <code>/var/lib/fah/cores/cores.foldingathome.org/lin/64bit/</code>.<br>Folding@home 的核心位于 <code>/var/lib/fah/cores/cores.foldingathome.org/lin/64bit/</code>。</p><p>Note: you need superuser privileges to enter these directories.<br>注意：进入这些目录需要超级用户权限。</p><p>The fix will stop working when a new Folding@home core version is released: it will need to be reapplied.<br>修复将在发布新的 Folding@home 核心版本时失效：需要重新应用。</p><p>If it’s not working yet, try editing <code>/etc/foldingathome/config.xml</code> file to attempt to autoconfigure GPUs:<br>如果尚未生效，尝试编辑 <code>/etc/foldingathome/config.xml</code> 文件以尝试自动配置 GPU：</p><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">gpu</span> <span class="attr">v</span>=<span class="string">&#x27;true&#x27;</span>/&gt;</span></span><br></pre></td></tr></table></figure><p>It if it’s not working, you may wish to try using either <a href="https://archlinux.org/packages/?name=rocm-opencl-runtime">rocm-opencl-runtime</a> or <a href="https://aur.archlinux.org/packages/opencl-amd/">opencl-amd</a>. Mesa OpenCL implementations are unlikely to work.<br>如果仍然无效，您可能希望尝试使用 <a href="https://archlinux.org/packages/?name=rocm-opencl-runtime">rocm-opencl-runtime</a> 或 <a href="https://archlinux.org/packages/?name=rocm-opencl-runtime">opencl-amd</a>。Mesa OpenCL 实现不太可能工作。</p><p>If you still receive errors that the GPU is disabled, check if <a href="https://archlinux.org/packages/?name=opencl-mesa">opencl-mesa</a> is installed and remove them so they do not conflict.<br>如果您仍然收到 GPU 被禁用的错误，请检查是否安装了 <a href="https://archlinux.org/packages/?name=opencl-mesa">opencl-mesa</a> 并卸载它们以避免冲突。</p><p>If it still does not work, make sure that there is only one vendor listed in <code>/etc/OpenCL/vendors</code>; Folding@home will not work correctly if there are multiple vendors.<br>如果仍然无法工作，请确保 <code>/etc/OpenCL/vendors</code> 中只列出了一个供应商；如果存在多个供应商，Folding@home 将无法正常运行。</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Folding@Home </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>萌娘百科文字模糊效果复刻</title>
       <link href="/posts/ee8283c4/"/>
       <url>/posts/ee8283c4/</url>
@@ -25,7 +44,7 @@
     
     
     <entry>
-      <title>我去！震撼首发！如何口算一个RSA密钥</title>
+      <title>我去！震撼首发！如何手算一个RSA密钥</title>
       <link href="/posts/8fb4531b/"/>
       <url>/posts/8fb4531b/</url>
       
